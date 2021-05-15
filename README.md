@@ -11,10 +11,13 @@ A program that can simulate a sonar image of a 3D scene using ray tracing.
 
 - [Download Unity](https://docs.unity3d.com/Manual/GettingStartedInstallingHub.html) - Download Unity Hub and follow the instructions on the above mentioned webpage, based on the provided operating system. The unity version used for this project is 2019.4.25.
 - Add the project folder to Unity Projects and open it.
-- Enter the Play Mode in the Game section to see how the program works.
-
 
 ## Instructions
+
+> Open Scene:
+- Go to *Assets > Underwater Cave Environment Pack > Scenes >*
+- Double click on: Underwater Cave Environment
+- Enter the Play Mode in the Game section to see how the program works.
 
 > Camera movement:
 - Press the mouse down to be able to change the camera positon and direction.
@@ -33,5 +36,5 @@ A program that can simulate a sonar image of a 3D scene using ray tracing.
 - To generate a new image, simply move the camera again and type *Space*. The image preview on the top left side of the scene will be changed accordingly.
 
 > Ray visualization
-- This fucntionality is disabled by defualt as it slows down the process of image formation.
+- This functionality is disabled by default as it slows down the process of image formation.
 - In order to be able to see the rays after they are cast, uncomment line 115 in *GenerateSonarImage.cs* script.
